@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <h1> List Of Things To Do</h1>
+    <ul><%todoList.forEach(function(listItem){%>
+      <li><%=listItem.description%></li>
+    <%})%>
+
+  </body>
+</html>
